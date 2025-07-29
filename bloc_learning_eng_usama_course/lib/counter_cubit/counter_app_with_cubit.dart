@@ -12,7 +12,7 @@ class CounterAppScreenWithCubit extends StatelessWidget {
 
       // Create and provide CounterCubit for all widgets below in the widget tree
       // it make diffrent context to use for BlocBuilder
-      // Context of BlocProvider Nit same The Context of Widget build
+      // Context of BlocProvider not the same of Widget build Context
       child: BlocBuilder<CounterCubit, CounterState>(
         // BlocBuilder updates this part of the UI when the Cubit changes its state
         // We can wrap only the widget we want to rebuild, not the whole screen
