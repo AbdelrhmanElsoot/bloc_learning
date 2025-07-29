@@ -1,4 +1,4 @@
-import 'package:bloc_learning_eng_usama_course/counter_cubit/counter_cubit.dart';
+import 'package:bloc_learning_eng_usama_course/counter_cubit/counter_app_with_cubit.dart';
 import 'package:flutter/material.dart';
 
 void main() {
