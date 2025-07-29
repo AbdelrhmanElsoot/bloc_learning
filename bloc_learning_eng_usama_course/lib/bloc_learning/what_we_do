@@ -1,0 +1,10 @@
+// 1. We create a State
+//    It has the inital value and updates like Cubit
+
+// 2. We create Events
+//    Events are names of actions from the UI to the BLoc
+
+// 3. We create a BLoc
+//    It has the events and the first state
+//    In the constructor, we listen to each event using (on)
+//    Inside on we write the action we want to do
