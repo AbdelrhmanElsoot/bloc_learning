@@ -1,4 +1,4 @@
-import 'package:bloc_learning_eng_usama_course/cubit_with_diff_data_type/bool_cubit_cubit.dart';
+import 'package:bloc_learning_eng_usama_course/cubit_learning/cubit_with_diff_data_type/bool_cubit_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
