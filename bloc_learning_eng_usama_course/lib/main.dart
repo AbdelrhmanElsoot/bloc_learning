@@ -1,6 +1,7 @@
 import 'package:bloc_learning_eng_usama_course/bloc_learning/counter_app_with_bloc.dart';
 import 'package:bloc_learning_eng_usama_course/cubit_learning/counter_cubit/counter_app_with_cubit.dart';
 import 'package:bloc_learning_eng_usama_course/cubit_learning/cubit_with_diff_data_type/check_gender.dart';
+import 'package:bloc_learning_eng_usama_course/equatable_in_flutter/equatable_in_flutter.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CounterAppScreenWithBloc(),
+      home: EquatableInFlutter(),
     );
   }
 }

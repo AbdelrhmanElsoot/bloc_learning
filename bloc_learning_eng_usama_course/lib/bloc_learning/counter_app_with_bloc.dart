@@ -26,9 +26,11 @@ class CounterAppScreenWithBloc extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
+                spacing: 10,
+
                 children: [
                   Text(state.count.toString(), style: TextStyle(fontSize: 24)),
-                  SizedBox(height: 20),
+
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
